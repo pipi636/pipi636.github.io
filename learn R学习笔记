@@ -1,0 +1,18 @@
+# learn R学习笔记（一）
+## 帮助和基础
+`?mean`、`help(“mean”)`  #打开mean函数的帮助页面
+`?”+”`、`help(“+”)`
+`?”if”`、'help(“if”)'
+`??plotting`、`help.search(“plotting”)`   #搜索所有包含“plotting”的主题
+`??”regression modle”`、`help.search(”regression modle”)`
+`apropos(“vector”)`  #找到匹配其输入的变量或函数
+`apropos(“z$”)`  #寻找所有以z结尾的变量
+`apropos(“[4-9]”)`  #含有4到9之间数字的所有变量
+`example(plot)`   #运行plot的示例
+`demo()`  #查看较长的概念的演示
+`demo(Japanese)`   #查看Japanese的演示
+`browseVignettes()`   #浏览所有在机器上的短文档
+`vignette(“Sweave”,package = “utils”)`   #查找utils包的Sweave短文档
+`RSiteSearch(“{Bayesian regression}”)`   #在http://search.r-project.org上查找Bayesian regression相关的包
+`install.packages(“installr”)`   #安装包
+`library(installr)`   #载入包
